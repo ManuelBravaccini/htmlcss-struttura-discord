@@ -68,19 +68,15 @@ section.container.flex{
     padding: 5rem 20rem;
 }
 
-div.content-image{
-    width: 60%;
-    background-size: cover;
-    padding-right: 10rem;
-}
-
-div.content-text{
-    width: 40%;
-}
-
 #main-foot{
     flex-direction: column;
     text-align: center;
+}
+
+button#purple{
+    background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
+    margin: 0 20rem;
 }
 
 footer.info{
