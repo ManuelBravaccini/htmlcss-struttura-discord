@@ -30,6 +30,7 @@ nav.navbar>a{
 div.introduction{
     color: white;
     margin-top: 5rem;
+    text-align: center;
 }
 
 section.container.flex{
@@ -45,4 +46,29 @@ div.content-image{
 
 div.content-text{
     width: 40%;
+}
+
+#foot.container.flex{
+    height: 39rem;
+    padding: 10rem 20rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer.info{
+    background-color: #23272a;
+    height: 20rem;
+    margin-top: 20rem;
+}
+
+footer h3, h4 {
+    color: #7289da;
+}
+
+div.sos{
+    width: 20%
+}
+
+div.ses{
+    width: 80%;
 }
