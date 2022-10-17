@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 39rem;
+    padding: 2rem 20rem;
+}
+
+header>.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav.navbar>a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+div.introduction{
+    color: white;
+    margin-top: 5rem;
 }
