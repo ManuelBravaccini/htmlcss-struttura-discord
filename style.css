@@ -5,6 +5,10 @@
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
 header{
     background-image: url(img/jumbo.png);
     background-size: cover;
@@ -13,7 +17,6 @@ header{
 }
 
 header>.navbar{
-    display: flex;
     justify-content: space-between;
     color: white;
 }
@@ -27,4 +30,19 @@ nav.navbar>a{
 div.introduction{
     color: white;
     margin-top: 5rem;
+}
+
+section.container.flex{
+    height: 39rem;
+    padding: 10rem 20rem;
+}
+
+div.content-image{
+    width: 60%;
+    background-size: cover;
+    padding-right: 10rem;
+}
+
+div.content-text{
+    width: 40%;
 }
